@@ -71,15 +71,3 @@ Each level has its own notebook so the workflow stays modular.
 - Find the cost-minimising threshold and compare it with the F1-maximising threshold.
 - This shows that the business-optimal threshold is not always the F1-optimal one.
 
----
-
-## Suggested Git commit plan (6 commits)
-
-1. `Add Day44 easy sales and sensor profiling notebook`
-2. `Add ADF test and daily calendar + sensor cleaning exports`
-3. `Add Day44 medium SARIMA baseline and plots`
-4. `Add Day44 seasonal SARIMA with weekday exogenous features`
-5. `Add Day44 sensor failure-risk RandomForest model`
-6. `Add Day44 hard rule-vs-model cost analysis and logic markdown`
-
-This gives six clear, incremental commits aligned to Easy → Medium → Hard work.
